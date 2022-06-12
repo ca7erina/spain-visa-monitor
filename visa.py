@@ -15,14 +15,14 @@ class Visa(Basic):
 
     def select_centre(self, county, city, category):
         self.wait_for_secs()
-        self.click_el(name="JurisdictionId")
-        self.click_el(xpath="//select[@name='JurisdictionId']/option[contains(text(),'{}')]".format(county))
+    #    self.click_el(name="JurisdictionId")
+    #    self.click_el(xpath="//select[@name='JurisdictionId']/option[contains(text(),'{}')]".format(county))
         self.wait_for_loading()
         self.click_el(name="centerId")
-        self.click_el(xpath="//select[@name='centerId']/option[contains(text(),'{}')]".format(city))
+        self.click_el(xpath="//select[@name='centerId']/option[contains(text(),'{}')]".format("Dublin"))
         self.wait_for_secs()
         self.click_el(name="category")
-        self.click_el(xpath="//select[@name='category']/option[contains(text(),'{}')]".format(category))
+        self.click_el(xpath="//select[@name='category']/option[contains(text(),'{}')]".format("Normal"))
         self.wait_for_secs()
         self.click_el(name='checkDate')
         logger.info("select centre finished")

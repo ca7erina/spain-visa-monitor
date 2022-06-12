@@ -2,10 +2,10 @@
 TIMEOUT = 90  # refresh page every 90s
 
 # =============== VISA CENTER SELECTION ===============
-CENTER = ('England', 'Manchester', 'Normal', 'Tourism')
+CENTER = ('Ireland', 'Dublin', 'Normal', 'Tourist')
 # CENTER = ('Scotland', 'Edinburgh', 'Normal', 'Tourism')
 # CENTER = ('Bristol', 'London', 'Normal', 'Tourist')
 # =============== PERSONAL CONFIG FOR VISA ===============
-OPENED_PAGE = 'https://uk.blsspainvisa.com/visa4spain/book-date/QwertYU123'  # your BLS appointment page link
-EMAIL = '123@456.com'  # BLS email
-PASSWORD = 'BLSpassword'  # BLS password
+OPENED_PAGE = 'https://ireland.blsspainvisa.com/visa4spain/book-date/X6SrppWehA'  # your BLS appointment page link
+EMAIL = 'gmail'  # BLS email
+PASSWORD = 'password'  # BLS password
